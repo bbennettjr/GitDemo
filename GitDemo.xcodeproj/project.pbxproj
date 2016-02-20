@@ -15,6 +15,7 @@
 		18039E241C78F20C00C8B81F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18039E221C78F20C00C8B81F /* LaunchScreen.storyboard */; };
 		18039E2F1C78F20C00C8B81F /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18039E2E1C78F20C00C8B81F /* GitDemoTests.m */; };
 		18039E3A1C78F20C00C8B81F /* GitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18039E391C78F20C00C8B81F /* GitDemoUITests.m */; };
+		18039E491C78F64200C8B81F /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 18039E481C78F64200C8B81F /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		18039E351C78F20C00C8B81F /* GitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18039E391C78F20C00C8B81F /* GitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoUITests.m; sourceTree = "<group>"; };
 		18039E3B1C78F20C00C8B81F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18039E471C78F64200C8B81F /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		18039E481C78F64200C8B81F /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				18039E181C78F20C00C8B81F /* AppDelegate.m */,
 				18039E1A1C78F20C00C8B81F /* ViewController.h */,
 				18039E1B1C78F20C00C8B81F /* ViewController.m */,
+				18039E471C78F64200C8B81F /* TestClass.h */,
+				18039E481C78F64200C8B81F /* TestClass.m */,
 				18039E1D1C78F20C00C8B81F /* Main.storyboard */,
 				18039E201C78F20C00C8B81F /* Assets.xcassets */,
 				18039E221C78F20C00C8B81F /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18039E491C78F64200C8B81F /* TestClass.m in Sources */,
 				18039E1C1C78F20C00C8B81F /* ViewController.m in Sources */,
 				18039E191C78F20C00C8B81F /* AppDelegate.m in Sources */,
 				18039E161C78F20B00C8B81F /* main.m in Sources */,
