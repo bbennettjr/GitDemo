@@ -11,10 +11,14 @@
 @interface ViewController ()
 @property (nonatomic) int sum;
 @property (nonatomic, strong) TestClass *testClas;
+
+    //log hello into the debugger
+-(void)sayHello;
 @end
 
 @implementation ViewController
 
+#pragma mark - VC Lifecycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -24,11 +28,19 @@
     self.sum = a + b;
 
     NSLog(@"The result is: %d", self.sum);
+
+        //say hello
+    [self sayHello];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - Private Methods
+-(void)sayHello{
+    NSLog(@"hello");
 }
 
 @end
