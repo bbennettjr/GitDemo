@@ -16,6 +16,7 @@
 -(void)sayHello;
     //log bye bye into the debugger
 -(void)sayByeBye;
+-(int)addSumOfA:(int)a AndB:(int)b;
 @end
 
 @implementation ViewController
@@ -26,8 +27,8 @@
     // Do any additional setup after loading the view, typically from a nib.
     int a = 5;
     int b = 10;
-
-    self.sum = a + b;
+        //log the sum to the debugger
+    NSLog(@"sum of a and b is: %d", [self addSumOfA:a AndB:b]);
 
     NSLog(@"The result is: %d", self.sum);
 
@@ -52,4 +53,9 @@
     NSLog(@"Bye - Bye");
 }
 
+-(int)addSumOfA:(int)a AndB:(int)b{
+        //add the values
+    self.sum = a + b;
+    return self.sum;
+}
 @end
