@@ -58,4 +58,12 @@
     self.sum = a + b;
     return self.sum;
 }
+
+- (IBAction)buttonSum:(UIButton *)sender {
+        //sum these two values
+    int a = 5;
+    int b = 10;
+        //call the addSumOfA... function nested
+    [sender setTitle:[NSString stringWithFormat:@"Sum is %d", [self addSumOfA:a AndB:b]] forState:UIControlStateNormal];
+}
 @end
