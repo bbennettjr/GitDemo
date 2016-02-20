@@ -14,6 +14,8 @@
 
     //log hello into the debugger
 -(void)sayHello;
+    //log bye bye into the debugger
+-(void)sayByeBye;
 @end
 
 @implementation ViewController
@@ -31,6 +33,8 @@
 
         //say hello
     [self sayHello];
+        //say bye bye
+    [self sayByeBye];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -42,6 +46,10 @@
 -(void)sayHello{
         //log hello
     NSLog(@"hello");
+}
+
+-(void)sayByeBye{
+    NSLog(@"Bye - Bye");
 }
 
 @end
