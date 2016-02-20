@@ -40,6 +40,7 @@
 
 #pragma mark - Private Methods
 -(void)sayHello{
+        //log hello
     NSLog(@"hello");
 }
 
