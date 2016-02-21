@@ -10,4 +10,8 @@
 
 @implementation TestClass
 
+-(void)testPullFromGit{
+NSLog(@"testing pull"};
+}
+
 @end
