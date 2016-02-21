@@ -11,7 +11,7 @@
 @implementation TestClass
 
 -(void)testPullFromGit{
-NSLog(@"testing pull"};
+    NSLog(@"testing pull");
 }
 
 @end
